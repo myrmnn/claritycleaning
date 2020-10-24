@@ -1,6 +1,6 @@
 const icon = document.querySelector('.icon');
-const navUL = document.querySelector('nav ul')
+const navUL = document.querySelector('.navbar');
 
 icon.addEventListener('click', function () {
-    navUL.classList.toggle('show');
-})
+	navUL.classList.toggle('show');
+});
