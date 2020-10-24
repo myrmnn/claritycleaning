@@ -10,6 +10,10 @@ html {
 	margin: 0 auto;
 }
 
+body {
+	color: #483549;
+}
+
 .header {
 	justify-content: center;
 	align-items: center;
@@ -57,7 +61,7 @@ html {
 }
 
 .navbar {
-	background-color: #e2f0e2;
+	background-color: #f7f7f7;
 	position: fixed;
 	z-index: 1;
 	width: 50%;
@@ -102,7 +106,6 @@ h1 {
 	font-weight: 100;
 	margin: 0;
 	text-align: center;
-	color: #483549;
 }
 
 h2 {
@@ -126,12 +129,13 @@ i {
 }
 
 .icon {
-	position: absolute;
+	position: fixed;
 	visibility: visible;
 	cursor: pointer;
 	top: 5;
 	z-index: 2;
 	left: 10;
+	color: #483549;
 
 	@media screen and (min-width: 760px) {
 		visibility: hidden;
